@@ -1,4 +1,4 @@
-__title__ = "recolor"
+__title__ = "colorgb"
 __version__ = "1.0"
 __authors__ = "LyQuid"
 __license__ = "MIT License"
