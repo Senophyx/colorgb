@@ -5,7 +5,7 @@ with open('README.md') as f:
     long_description = f.read()
 
 version = ''
-with open('recolor/__init__.py') as f:
+with open('colorgb/__init__.py') as f:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE).group(1)
 
 if not version:
@@ -20,7 +20,7 @@ def read_requirements():
 
 
 setup(
-    name='recolor',
+    name='colorgb',
     version=version,
     author='LyQuid',
     author_email='lyquidpersonal@gmail.com',
@@ -28,16 +28,16 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     license='MIT License',
-    url='https://github.com/LyQuid12/recolor',
+    url='https://github.com/LyQuid12/colorgb',
     project_urls={
-        "Source Code": "https://github.com/LyQuid12/recolor",
+        "Source Code": "https://github.com/LyQuid12/colorgb",
         "Discord": "https://discord.gg/qpT2AeYZRN",
-        "Issue tracker": "https://github.com/LyQuid12/recolor/issues"
+        "Issue tracker": "https://github.com/LyQuid12/colorgb/issues"
     },
     packages=find_packages(),
     include_package_data=True,
     install_requires=read_requirements(),
-    keywords=["python", "color", "recolor", "coloring", "recoloring"],
+    keywords=["python", "color", "colorgb", "coloring", "recoloring",  "rgb"],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Education',
