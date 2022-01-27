@@ -18,7 +18,7 @@ def style(text=None, style=None, reset=True) -> str:
         else:
             styled = f"{styles.UNDERLINE}{text}{styles.RESET}"
         
-    if style == "bold":
+    elif style == "bold":
         if reset == False:
             styled = f"{styles.BOLD}{text}"
         else:
