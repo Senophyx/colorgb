@@ -1,7 +1,7 @@
 class styles:
     UNDERLINE = "\u001b[4m"
     BOLD = "\u001b[1m"
-    RESET = "033[0m"
+    RESET = "\033[0m"
 
 def style(text=None, style=None, reset=True) -> str:
     """
