@@ -14,3 +14,4 @@ init()
 from .foregrounds import fore
 from .backrounds import bg
 from .styles import style
+from .special import blink
