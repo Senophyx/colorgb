@@ -38,7 +38,7 @@ color_list = [
     '\033[37m'
 ]
 
-def blink(text, loop=10) -> str:
+def blink(text, loop=20) -> str:
     for i in range(loop):
         random_color = random.choice(color_list)
         clear(delay=0.1)
