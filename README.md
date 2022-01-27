@@ -6,7 +6,7 @@
 [![Discord](https://img.shields.io/discord/887650006977347594?color=blue&label=EterNomm&logo=discord)](https://discord.com/invite/qpT2AeYZRN)
 
 # Colorgb
-A Python packages to recoloring default string
+A Python packages to coloring and styling default terminal text
 
 ### Install
 ```
@@ -14,24 +14,7 @@ pip install colorgb
 ```
 
 # Examples
-- Fore
-```py
-import colorgb
-
-print(colorgb.fore("Hello!", "green", reset=True))
-```
-
-- Backgrounds
-```py
-import colorgb
-
-print(colorgb.bg("Danger", "red", reset=True))
-```
-
-- Style
-```
-Soon!
-```
+See at [examples directory](https://github.com/LyQuid12/colorgb/tree/master/examples).
 
 # License and Copyright
 This project under MIT License
