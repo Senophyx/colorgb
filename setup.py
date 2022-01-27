@@ -24,7 +24,7 @@ setup(
     version=version,
     author='LyQuid',
     author_email='lyquidpersonal@gmail.com',
-    description='A Python packages to recoloring default terminal text',
+    description='A Python packages to coloring and styling default terminal text',
     long_description=long_description,
     long_description_content_type='text/markdown',
     license='MIT License',
