@@ -19,7 +19,7 @@ class colors:
 
 def bg(text, color, reset=True) -> str:
     """
-    Backrounds. The color will appear behind the text.
+    Backgrounds. The color will appear behind the text.
     -
     -----
     Basic Colors :
