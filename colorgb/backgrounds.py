@@ -17,10 +17,14 @@ class colors:
     LCYAN = '\033[106m'
     RESET = '\033[0m'
 
-def bg(text, color, reset=True) -> str:
+def bg(text:str, color:str, reset=True):
     """
     Backgrounds. The color will appear behind the text.
     -
+    Parameters :
+    - text: `str`
+    - color: `str`
+    - reset: `True/False` | Default: `True`
     -----
     Basic Colors :
     - `black`
