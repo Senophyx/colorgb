@@ -21,6 +21,7 @@ def bg(text:str, color:str, reset=True):
     """
     Backgrounds. The color will appear behind the text.
     -
+    -----
     Parameters :
     - text: `str`
     - color: `str`
