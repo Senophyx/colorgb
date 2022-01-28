@@ -19,10 +19,15 @@ class colors:
 
 
 
-def fore(text, color, reset=True) -> str:
+def fore(text:str, color:str, reset=True):
     """
     Fore. The color will appear in the text.
     -
+    -----
+    Parameters :
+    - text: `str`
+    - color: `str`
+    - reset: `True/False` | Default: `True`
     -----
     Basic Colors :
     - `black`
