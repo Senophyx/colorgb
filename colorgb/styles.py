@@ -9,8 +9,13 @@ class styles:
 
 def style(text:str, style:str, reset=True):
     """
-    Style.
-    Styling the font.
+    Style. Styling the font.
+    -
+    -----
+    Parameters :
+    - text: `str`
+    - style: `str`
+    - reset: `True/False` | Default : `True`
     -----
     Style List :
     - `bold`
