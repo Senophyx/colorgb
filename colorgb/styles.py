@@ -7,12 +7,12 @@ class styles:
     OVERLINED = "\u001b[53m"
     RESET = "\033[0m"
 
-def style(text=None, style=None, reset=True) -> str:
+def style(text:str, style:str, reset=True):
     """
-    Style. Styling the font.
-    -
+    Style.
+    Styling the font.
     -----
-    List :
+    Style List :
     - `bold`
     - `italic` (Not widely supported)
     - `underline`
