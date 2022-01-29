@@ -64,7 +64,7 @@ class blink:
     """
     
     @classmethod
-    def fore(self, text:str, loop:int=20):
+    def fore(self, text:str, loop:int=20, delay:int=0.1):
         """
         Blinking fore. No return
         Warning : You don't need to use print! it's already inside every blink function.
@@ -72,16 +72,17 @@ class blink:
         Parameters :
         - text: `str`
         - loop: `int` | Default: `20`
+        - delay: `int` | Default: `0.1`
         """
         for i in range(loop):
             random_color = random.choice(fore_color_list)
-            clear(delay=0.1)
+            clear(delay=delay)
             colored = f"{random_color}{text}\033[0m"
             print(colored)
 
     
     @classmethod
-    def bg(self, text:str, loop:int=20):
+    def bg(self, text:str, loop:int=20, delay:int=0.1):
         """
         Blinking backgrounds. No return.
         Warning : You don't need to use print! it's already inside every blink function.
@@ -89,9 +90,10 @@ class blink:
         Parameters :
         - text: `str`
         - loop: `int` | Default: `20`
+        - delay: `int` | Default: `0.1`
         """
         for i in range(loop):
             random_color = random.choice(bg_color_list)
-            clear(delay=0.1)
+            clear(delay=delay)
             colored = f"{random_color}{text}\033[0m"
             print(colored)
