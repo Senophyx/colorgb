@@ -13,8 +13,9 @@ A Python packages to coloring and styling default terminal text
 pip install colorgb
 ```
 
-# Examples
-See at [examples directory](https://github.com/LyQuid12/colorgb/tree/master/examples).
+# List & Examples
+- Color & Style list : https://github.com/LyQuid12/colorgb/blob/master/color_list.md
+- Examples : https://github.com/LyQuid12/colorgb/tree/master/examples
 
 # License and Copyright
 This project under MIT License
