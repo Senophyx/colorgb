@@ -1,5 +1,5 @@
 __title__ = "colorgb"
-__version__ = "3.1"
+__version__ = "4.0"
 __authors__ = "LyQuid"
 __license__ = "MIT License"
 __copyright__ = "Copyright 2022-present LyQuid"
@@ -14,4 +14,4 @@ init()
 from .foregrounds import fore
 from .backgrounds import bg
 from .styles import style
-from .special import blink
+from .errors import *
