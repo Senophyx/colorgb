@@ -6,7 +6,8 @@
 [![Discord](https://img.shields.io/discord/887650006977347594?color=blue&label=EterNomm&logo=discord)](https://discord.com/invite/qpT2AeYZRN)
 
 # Colorgb
-A Python packages to coloring and styling default terminal text
+A Python packages to coloring and styling default terminal text.
+ColorGB using [3-bit and 4-bit colors](https://en.m.wikipedia.org/wiki/ANSI_escape_code#3-bit_and_4-bit) ([8-16 Colors](https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797#8-16-colors)) ANSI Escape Code.
 
 ### Install
 ```
