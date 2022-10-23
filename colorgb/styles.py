@@ -21,6 +21,7 @@ def style(text:str, style:str, reset=True):
     """
     
     try:
+        text = str(text)
         if reset == False:
             return str(styles[style]+text)
         else:
