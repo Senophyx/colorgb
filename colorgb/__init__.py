@@ -1,5 +1,5 @@
 __title__ = "colorgb"
-__version__ = "4.0"
+__version__ = "4.1"
 __authors__ = "LyQuid"
 __license__ = "MIT License"
 __copyright__ = "Copyright 2022-present LyQuid"
