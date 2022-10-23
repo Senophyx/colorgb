@@ -32,6 +32,7 @@ def bg(text:str, color:str, reset=True):
     """
 
     try:
+        text = str(text)
         if reset == False:
             return str(background[color]+text)
         else:
