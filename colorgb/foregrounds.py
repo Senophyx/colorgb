@@ -32,6 +32,7 @@ def fore(text:str, color:str, reset=True):
     """
 
     try:
+        text = str(text)
         if reset == False:
             return str(fg[color]+text)
         else:
